@@ -115,4 +115,4 @@ The system is evaluated using:
 ---
 
 In order to use the Agentic AI course Assistant just go to the url:
-[CLick here](https://xyz.com)
+[Click here](https://ai-course-assistant.streamlit.app/)
