@@ -2,7 +2,8 @@
 
 An AI-powered assistant built using **RAG (Retrieval-Augmented Generation)** and **LangGraph**, designed to provide accurate, grounded, and context-aware answers for AI-related queries.
 
-<img src="CourseAssistant.png" alt="CourseAssistant" width="300">
+<img src="CourseAssistant.png" alt="CourseAssistant" width="500">
+
 ---
 
 ## 🚀 Features
@@ -51,6 +52,38 @@ A list of 10 documents related to an Agentic AI course is used to demonstrate th
 - AI-Course-Assistant.py        # Streamlit UI
 - capstone-experiments.ipynb    # A notebook used for experimenting on various features of the AI model.
 - requirements.txt              # Has all the packages required to run this
+
+---
+
+
+## ⚙️ Setup & Installation
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/agentic-ai-assistant.git
+cd agentic-ai-assistant
+```
+
+### 2. Create virtual environment
+```bash
+python -m venv .venv
+venv\Scripts\activate 
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Set environment variables
+```bash
+GROQ_API_KEY = "YOUR API KEY FROM GROQ"
+```
+
+### 5. Run the streamlit app (after adding your own documents in DOCUMENTS list)
+```bash
+streamlit run AI-Course-Assistant.py
+```
 
 ---
 
