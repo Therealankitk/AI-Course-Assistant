@@ -76,7 +76,7 @@ class CapstoneState(TypedDict):
 
 
 def load_agent():
-    llm      = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
+    llm      = ChatGroq(model="openai/gpt-oss-120b", temperature=0)
     embedder = SentenceTransformer("all-MiniLM-L6-v2")
 
     client = chromadb.EphemeralClient()
